@@ -1,0 +1,24 @@
+name: HungerGame
+version: ${project.version}
+main: me.shiming.hungergame.HungerGame
+api-version: 1.18
+authors: [ shiming ]
+description: The Hunger Games in minecraft server.
+
+permissions:
+  hungergame.hgop:
+    default: op
+
+commands:
+  hgstart:
+    description: Start the game
+    permission: hungergame.hgop
+    permission-message: It's a OP-ONLY command.
+  hgstop:
+    description: Stop the game
+    permission: hungergame.hgop
+    permission-message: It's a OP-ONLY command.
+  hgconfig:
+    description: config the game
+    permission: hungergame.hgop
+    permission-message: It's a OP-ONLY command.

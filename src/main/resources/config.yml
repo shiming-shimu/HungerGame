@@ -1,0 +1,10 @@
+actived_rule: "default_rule"
+default_rule:
+  origin_length: 256
+  rule:
+    - {256: 300}
+    - {196: 300}
+    - {128: 300}
+    - {64: 600}
+    - {8: 300}
+    - {1: 100}
